@@ -1,15 +1,17 @@
 {
-  "name": "zenn-repo",
+  "name": "zenn",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pre": "npx zenn preview",
+    "na": "npx zenn new:article && article_id=$(ls -t articles | head -n 1 | sed \"s/.md//\") && mkdir -p \"images/$article_id\"",
+    "clean:images": "find ./images -depth -type d -empty -exec rmdir {} \\;"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "isc",
   "dependencies": {
-    "zenn-cli": "^0.1.158"
+    "zenn-cli": "^0.1.134"
   }
 }
