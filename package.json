@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pre": "npx zenn preview",
-    "na": "npx zenn new:article && article_id=$(ls -t articles | head -n 1 | sed \"s/.md//\") && mkdir -p \"images/$article_id\"",
+    "preview": "npx zenn preview",
+    "new:article": "slug_pre=$(git rev-parse --abbrev-ref head) && npx zenn new:article --slug ${slug_pre}-$(date +%yy%mm%dd) && mkdir -p images/$slug_pre",
     "clean:images": "find ./images -depth -type d -empty -exec rmdir {} \\;"
   },
   "keywords": [],
   "author": "",
   "license": "isc",
   "dependencies": {
-    "zenn-cli": "^0.1.134"
+    "zenn-cli": "^0.1.158"
   }
 }
+
