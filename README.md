@@ -35,9 +35,9 @@ npm run clean:images
 
 ## ディレクトリ構造 
 .
-├── articles/ # 記事ファイル
-├── images/ # 画像ファイル
-└── package.json # 依存関係の設定
+├── articles/     # 記事ファイル
+├── images/       # 画像ファイル
+└── package.json  # 依存関係の設定
 
 ## ライセンス
 
