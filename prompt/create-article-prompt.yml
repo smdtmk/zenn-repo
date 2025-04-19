@@ -1,26 +1,30 @@
 # 記事の基本情報（必須項目）
-slug: aws-cli-setup-guide
-type: tutorial
-title: 【AWS】AWS CLIのインストールと初期設定 - セキュアな環境構築ガイド
+slug: aws-cli-switch-role-guide
+type: tech
+title: 【AWS CLI】スイッチロールを使いこなすための完全ガイド
 
 # 記事の詳細情報
-purpose: AWS CLIのインストールから初期設定、セキュリティベストプラクティスまでを解説し、安全なAWS操作環境を構築する
+purpose: AWS CLIでのスイッチロール機能の使い方を理解し、実践的に活用できるようになる
 
 target_audience: |
-  - AWSをコマンドラインで操作したい開発者
-  - CI/CD環境の構築を検討している方
-  - AWS環境の自動化を目指す方
-  - セキュアな開発環境を構築したい方
+  - AWS CLIを使用している開発者やインフラエンジニア
+  - 複数のAWSアカウントを管理している方
+  - セキュリティを考慮したロール切り替えを学びたい方
 
 topics: |
-  - AWS CLIのインストール手順（macOS, Linux, Windows）
-  - AWS CLIの初期設定とIAMユーザーの準備
-  - AWS認証情報の安全な管理方法
-  - AWS CLIの基本的な使用方法
-  - トラブルシューティングとベストプラクティス
+  - AWS CLIの基本的な設定
+  - IAMロールとスイッチロールの概念
+  - クロスアカウントアクセスの実装方法
+  - AWS CLIプロファイルの設定と管理
 
 emphasis: |
-  - セキュリティベストプラクティスの徹底
-  - 環境ごとの詳細なセットアップ手順
-  - 認証情報の安全な管理方法
-  - 実践的なトラブルシューティング 
+  - スイッチロールの基本概念と利点
+  - AWS CLIの設定ファイル（credentials と config）の構造
+  - 実践的なスイッチロールの設定例
+  - セキュリティのベストプラクティス
+  - トラブルシューティングと一般的な問題の解決方法
+
+references: |
+  - https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-role.html
+  - https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-cli.html
+  - https://dev.classmethod.jp/articles/aws-cli-assume-role/
