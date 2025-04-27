@@ -3,7 +3,7 @@ title: "【AWS入門】AWS CLIでスイッチロールを使いこなそう！�
 emoji: "🔄"
 type: "tech"
 topics: ["aws", "awscli", "iam", "初心者", "スイッチロール"]
-published: false
+published: true
 ---
 
 ## 👋 はじめに：スイッチロールで複数アカウントを楽々管理
