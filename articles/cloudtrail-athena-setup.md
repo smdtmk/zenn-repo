@@ -57,8 +57,6 @@ LIMIT 20;
 > - `<テーブル名>`はAthenaテーブル作成時に指定したデータベース名に読み替えてください。
 > - クエリはAthenaのクエリエディタで実行できます。
 
-![Athenaでクエリ実行](../images/cloudtrail-athena-setup-images/athena-query-editor-1.jpg)
-
 ---
 
 ## 3. まとめ
