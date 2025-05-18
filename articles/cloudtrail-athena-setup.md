@@ -34,9 +34,9 @@ CloudTrailのコンソールには、Athena用のテーブルを自動作成す�
 4. Athenaのクエリエディタが自動的に開き、テーブル作成用のSQLが自動生成されます。内容を確認し、実行します。
 5. テーブル作成後、**「パーティションの修復」**も自動で案内されるので、指示に従い実行します。
 
-![Athenaテーブル自動作成手順1](../images/cloudtrail-athena-setup-images/cloudtrail-event-history-1-1.jpg)
+![Athenaテーブル自動作成手順1](../images/cloudtrail-athena-setup-images/cloudtrail-event-history-1-1.png)
 
-![Athenaテーブル自動作成手順2](../images/cloudtrail-athena-setup-images/cloudtrail-event-history-2-1.jpg)
+![Athenaテーブル自動作成手順2](../images/cloudtrail-athena-setup-images/cloudtrail-event-history-2-1.png)
 
 ---
 
