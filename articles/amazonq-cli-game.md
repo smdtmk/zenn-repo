@@ -56,8 +56,7 @@ AWSコミュニティが主催する「Build Games with Amazon Q CLI」キャン
 > 本プロジェクトのソースコードは以下のGitHubリポジトリで公開しています：
 > [https://github.com/smdtmk/mahjong-game](https://github.com/smdtmk/mahjong-game)
 
-![Amazon Q CLIで開発した麻雀ゲーム](![](https://storage.googleapis.com/zenn-user-upload/463a09462eb0-20250527.png))
-
+![](https://storage.googleapis.com/zenn-user-upload/463a09462eb0-20250527.png)
 ---
 
 ## Amazon Q CLIを活用した開発プロセス
