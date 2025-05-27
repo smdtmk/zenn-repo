@@ -10,7 +10,6 @@ published: true
 
 AWSコミュニティで開催されている「Build Games with Amazon Q CLI」キャンペーンに参加し、Amazon Q CLIを活用して麻雀何切る問題ゲームを開発しました。この記事では、キャンペーンの概要と開発したゲームについて解説します。
 
-![キャンペーンバナー](https://community.aws/content/2xIoduO0xhkhUApQpVUIqBFGmAc/build-games-with-amazon-q-cli-and-score-a-t-shirt)
 
 > **この記事のポイント**
 > - AWSの「Build Games with Amazon Q CLI」キャンペーンについて
@@ -32,8 +31,6 @@ AWSコミュニティで開催されている「Build Games with Amazon Q CLI」
 
 AWSコミュニティが主催する「Build Games with Amazon Q CLI」キャンペーンは、Amazon Q CLIを活用してゲームを開発し、その過程をブログや動画で共有するという取り組みです。このキャンペーンは2025年5月20日から6月20日まで開催され、アジア太平洋地域、日本、大中華圏の参加者が対象となっています。
 
-![Amazon Q CLI](https://docs.aws.amazon.com/q/assets/images/amazon-q-cli.png)
-
 キャンペーンの主な目的は：
 - Amazon Q CLIの実践的な活用経験を得る
 - クリエイティビティを活かしたゲーム開発
@@ -50,8 +47,6 @@ AWSコミュニティが主催する「Build Games with Amazon Q CLI」キャン
 - レスポンシブデザイン
 - デバッグモードの実装
 
-![ゲーム画面](https://raw.githubusercontent.com/smdtmk/mahjong-game/main/images/game_screenshot.png)
-
 技術スタック：
 - フロントエンド: HTML5, CSS3, JavaScript
 - 画像生成: Python (PIL)
@@ -60,6 +55,8 @@ AWSコミュニティが主催する「Build Games with Amazon Q CLI」キャン
 > **ソースコード**
 > 本プロジェクトのソースコードは以下のGitHubリポジトリで公開しています：
 > [https://github.com/smdtmk/mahjong-game](https://github.com/smdtmk/mahjong-game)
+
+![Amazon Q CLIで開発した麻雀ゲーム](../images/amazonq-cli-game/amazonq-cli-game01.png)
 
 ---
 
@@ -81,8 +78,6 @@ Amazon Q CLIを活用することで、以下のような効率的な開発が�
    - READMEの作成
    - コードコメントの生成
    - API仕様の文書化
-
-![開発プロセス](https://raw.githubusercontent.com/smdtmk/mahjong-game/main/images/development_process.png)
 
 ---
 
